@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimage">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Mood Tracker"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/etMood"
+        android:hint="Enter your mood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etNote"
+        android:hint="Enter a note (optional)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnSaveMood"
+        android:text="Save Mood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#94CA9E"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>
